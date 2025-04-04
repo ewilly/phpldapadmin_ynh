@@ -7,7 +7,7 @@ name = "phpLDAPadmin"
 description.en = "Manage OpenLDAP database over the web"
 description.fr = "Application web de gestion de la base OpenLDAP"
 
-version = "2.0.2~ynh1"
+version = "2.0.2~ynh2"
 
 maintainers = ["aymhce"]
 
@@ -36,9 +36,9 @@ ram.runtime = "50M"
     [install.domain]
     type = "domain"
 
-    #[install.path]
-    #type = "path"
-    #default = "/phpldapadmin"
+    [install.path]
+    type = "path"
+    default = "/phpldapadmin"
 
     [install.init_main_permission]
     type = "group"
